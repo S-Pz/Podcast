@@ -1,9 +1,9 @@
-import './style/global.scss'
+import '../style/global.scss'
 
-import { Header } from './components/Header'
-import { Player } from './components/Player';
-
-import styles from './style/app.module.scss';
+import { Header } from '../components/Header';
+import {Player } from '../components/Player';
+import styles from '../style/app.module.scss';
+//import styles from '../style/app.module.scss';
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -18,5 +18,4 @@ function MyApp({ Component, pageProps }) {
     </div>
   )
 }
-
-export default MyApp
+export default MyApp;

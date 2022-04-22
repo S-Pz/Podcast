@@ -2,6 +2,7 @@ import format from 'date-fns/format';//Biblioteca para a importação de data
 import ptBR from 'date-fns/locale/pt-BR';//Biblioteca para a importação de data utilizando o yarn add date-fns
 
 import styles from './styles.module.scss';
+//import Image from 'next/image';
 
 export function Header(){
     const currentDate = format(new Date(), 'EEEEEE, d MMMM',{
